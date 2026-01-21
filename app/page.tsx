@@ -375,6 +375,16 @@ const toggleTheme = () => {
           >
             View Experience
           </a>
+
+           {/* Resume */}
+          <a
+            href="https://drive.google.com/file/d/1i7v1X16T5wDmendn799dFcNFNXELbPkt/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl bg-[#4F8CFF] px-8 py-4 font-medium text-white transition hover:opacity-90"
+          >
+            Download Resume
+          </a>
         </motion.div>
 
 
@@ -543,7 +553,7 @@ const toggleTheme = () => {
                   href={activeProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition"
+                  className="px-4 py-2 rounded-lg bg-[#4F8CFF] hover:bg-white/20 transition"
                 >
                   GitHub →
                 </a>
@@ -554,7 +564,7 @@ const toggleTheme = () => {
                   href={activeProject.drive}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition"
+                  className="px-4 py-2 rounded-lg bg-[#4F8CFF] hover:bg-white/20 transition"
                 >
                   Drive →
                 </a>
@@ -637,16 +647,6 @@ const toggleTheme = () => {
           transition={{ delay: 0.2 }}
           className="flex flex-col items-center justify-center gap-6 sm:flex-row"
         >
-          {/* Resume */}
-          <a
-            href="https://drive.google.com/file/d/1i7v1X16T5wDmendn799dFcNFNXELbPkt/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-xl bg-[#4F8CFF] px-8 py-4 font-medium text-white transition hover:opacity-90"
-          >
-            Download Resume
-          </a>
-
           {/* Contact buttons */}
           <div className="flex flex-col gap-4 sm:flex-row">
             {/* Email */}
