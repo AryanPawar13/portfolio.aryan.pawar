@@ -367,25 +367,26 @@ const toggleTheme = () => {
           >
             View Projects
           </a>
-
+        
           {/* Secondary CTA */}
           <a
             href="#experience"
-            className="rounded-xl bg-[#4F8CFF] px-7 py-3 text-center font-medium text-white transition hover:opacity-90"
+            className="rounded-xl border border-[#4F8CFF]/60 px-7 py-3 text-center font-medium text-[#4F8CFF] transition hover:bg-[#4F8CFF]/10"
           >
             View Experience
           </a>
-
-           {/* Resume */}
+        
+          {/* Resume (Tertiary CTA) */}
           <a
             href="https://drive.google.com/file/d/1i7v1X16T5wDmendn799dFcNFNXELbPkt/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl bg-[#4F8CFF] px-8 py-4 font-medium text-white transition hover:opacity-90"
+            className="rounded-xl border border-black/10 px-7 py-3 text-center font-medium text-[var(--muted)] transition hover:border-[#4F8CFF] hover:text-[var(--fg)] dark:border-white/15"
           >
             Download Resume
           </a>
         </motion.div>
+
 
 
 
